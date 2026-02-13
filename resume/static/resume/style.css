@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(skyblue,royalblue,white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
+}
+
+nav{
+    text-align: center;
+    background-color:rgb(56, 78, 83);
+    width: 100%;
+    padding: 20px 0;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover{
+    background:crimson;
+    
+}
+
+.container{
+    background: yellowgreen;
+}
